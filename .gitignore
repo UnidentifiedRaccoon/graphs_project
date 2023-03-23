@@ -1,0 +1,17 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+
+../.idea/
+bigtrip/.idea/
+.cache/
+coverage/
+build/
+public/bundle.js
+public/bundle.js.map
+#!dist/index.html
+node_modules/
+*.log

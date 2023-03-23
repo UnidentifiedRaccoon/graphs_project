@@ -1,0 +1,25 @@
+{
+  "name": "bigtrip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Личный проект «Большое путешествие» от HTML Academy",
+  "scripts": {
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint",
+    "fix": "eslint . --fix",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "css-loader": "6.5.1",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "18.2.1",
+    "style-loader": "3.3.1",
+    "webpack": "5.64.0",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.5.0"
+  },
+  "dependencies": {
+    "js-priority-queue": "^0.1.5"
+  }
+}
